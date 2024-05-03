@@ -2,13 +2,13 @@ from twilio.rest import Client
 import smtplib
 
 
-twilio_api_key = "808bda379c3f358d866ed5fbc998ae10"
-twilio_account_sid = "AC6a916389b78ca018a9adb995df46d0b1"
-twilio_auth_token = "a1b991364599966ff76d02100421a9de"
-verify_sid = "VAca0ddccc627c2790286225993d571109"
-twilio_phone_number = "+15734961771"
-my_email = "rhythm.hacker17@gmail.com"
-my_password = "xkkxieymtseyzcqu"
+twilio_api_key = ""
+twilio_account_sid = ""
+twilio_auth_token = ""
+verify_sid = ""
+twilio_phone_number = "+"
+my_email = ""
+my_password = ""
 
 
 class NotificationManager:
@@ -20,7 +20,7 @@ class NotificationManager:
         message = self.client.messages.create(
             from_=twilio_phone_number,
             body=message,
-            to="+919996844460"
+            to="phone_number"
         )
 
     def send_emails(self, emails, message):
