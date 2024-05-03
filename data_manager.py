@@ -1,8 +1,8 @@
 import requests
 
-sheet_endpoint = "https://api.sheety.co/0136853def3d16907ae330700c98e64e/flightDeals"
+sheet_endpoint = ""
 sheet_headers = {
-    "Authorization":"Bearer safdksajkfsadkfsalfklsafkldsaf214332424355252525"
+    "Authorization":"Bearer"
 }
 
 class DataManager:
