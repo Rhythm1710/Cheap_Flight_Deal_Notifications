@@ -1,7 +1,7 @@
 import requests
 from flight_data import FlightData
 
-api_key = "Gd5KmEUwoxZUbY28vD0gRSUc9j6qTnE5"
+api_key = ""
 end_point = "https://api.tequila.kiwi.com"
 
 
