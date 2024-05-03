@@ -2,8 +2,8 @@ import requests
 import re
 import email.utils as e
 
-endpoint = "https://api.sheety.co/0136853def3d16907ae330700c98e64e/flightDeals/users"
-api_key = "Bearer safdksajkfsadkfsalfklsafkldsaf214332424355252525"
+endpoint = ""
+api_key = "Bearer "
 
 
 class NewUser:
