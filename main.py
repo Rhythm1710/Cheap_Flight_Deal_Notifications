@@ -16,7 +16,7 @@ new_user = NewUser()
 
 Origin_city = "LON"
 
-print("Welcome to Rhythm's Flight Club.\nWe find the best flight deals and email you.")
+print("Welcome to name's Flight Club.\nWe find the best flight deals and email you.")
 first_name = input("What is your first name? ")
 last_name = input("What is your last_name? ")
 email = input("What is your email? ")
